@@ -112,3 +112,70 @@ h6 {
 .party img {
     width: 250px;
 }
+
+
+/*  OFFER STYLE */
+.offer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background: #FFF;
+    width: 1220px;
+    margin: 0;
+}
+
+.offer > .sec1  h6, h4, p {
+    text-align: left;
+}
+
+.offer> .sec1 > h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sec1 h4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.offer > .sec1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    width: 300px;
+}
+
+
+.sec2 img {
+    width: 200px;
+    border: 8px solid red;
+    border-radius: 364.844px;
+    padding: 15px;
+}
+
+.offer .sec3>h6,
+p {
+    text-align: left;
+}
+.sec3>h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+.sec3 img{  
+    height: 80px;
+}
+.offer .sec3 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    width: 205px;
+}
