@@ -297,12 +297,14 @@ label button {
     margin-top: 70px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 5px;
 }
 
 .footer-head {
     display: flex;
     justify-content: space-between;
-    padding-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 0px;
 }
 
 .footer .head1,
@@ -313,11 +315,23 @@ label button {
 }
 
 .footer .head1 {
-    padding-right: 250px;
+    padding-right: 230px;
+    line-height: 200%;
 }
 
 .footer .head2 {
-    padding-right: 100px;
+    padding-right: 70px;
+    top: 0;
+    
+}
+.footer .head2 .imgp{
+    display: flex;
+    padding: 0 ;
+    margin: 0;
+
+}
+.footer .head2 p{
+    margin-left: -5px;
 }
 
 .footer .footer-icon img {
@@ -344,4 +358,5 @@ hr {
     margin-bottom: 0;
     margin-left: 55px;
     margin-right: 55px;
+    padding: 0;
 }
