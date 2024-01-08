@@ -179,3 +179,57 @@ p {
     font-weight: 400;
     width: 205px;
 }
+
+
+
+/* PORTFOLIO STYLE */
+.portfolio {
+    margin-top: 60px;
+    margin-left: 7px;
+}
+
+.portfolio>h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.portfolio h4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    padding-right: 100px;
+    font-weight: 400;
+    padding-right: 404px;
+}
+
+.portfolio img {
+    width: 300px;
+    border-radius: 16px;
+    margin: 0px 10px 90px 0px;
+    border: 5px solid transparent;
+}
+.portfolio img:hover{
+    border-color:tomato;
+}
+
+.portfolio .column2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.portfolio .row2{
+    display: flex;
+    justify-content: space-between;
+}
